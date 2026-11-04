@@ -1,4 +1,3 @@
-/* --- ПЕРЕМЕННЫЕ ЦВЕТА --- */
 :root {
   --bg-color: #f0f8ff;          /* Нежно-голубой фон (AliceBlue) */
   --text-color: #1e3a8a;        /* Тёмно-синий текст (чтобы читалось) */
@@ -102,4 +101,14 @@ min-width: 768px {
     justify-content: center;
     gap: 25px;
   }
+}
+/* ТЁМНАЯ ТЕМА  */
+body.dark-theme {
+  --bg-color: #0a1a3a;          /* Тёмно-синий фон */
+  --text-color: #e6f0ff;        /* Светлый текст */
+  --header-bg: #0d2b5c;         /* Тёмная шапка */
+  --nav-bg: #123a75;            /* Тёмное меню */
+  --card-bg: #102a52;           /* Тёмные карточки */
+  --accent-color: #4fc3f7;      /* Голубые ссылки (как было в первой версии) */
+  --border-color: #1e4a8a;      /* Рамки */
 }
